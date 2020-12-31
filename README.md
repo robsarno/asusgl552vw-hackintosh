@@ -61,6 +61,9 @@ What you **need to do**:
 * Touchpad (need patching, currently working)
 * FN keys + backlight (need patching, currently working)
 * Nvidia GPU GTX M960 (not supported)
+* iServices (iMessage, iCloud...)
+	* We have set serial, SMBIOS etc, but is not enough. Before login with your iCloud account I advise you to read the guide. Your Apple ID could be blacklisted.
+	* [follow this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-en0) 
 
 ### :exclamation: HDMI issues
 If you use external display through HDMI you can:
