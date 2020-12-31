@@ -1,10 +1,12 @@
-
 # Hackintoshing ASUS GL552VW - macOS BigSur 11
-:it:
-![Generic badge](https://img.shields.io/maintenance/yes/2021)
+<img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48"/>
+![Generic badge](https://img.shields.io/badge/OpenCore--DEBUG-0.6.4-brightgreen)
+-----
+<br>![Generic badge](https://img.shields.io/maintenance/yes/2021)
 ![Generic badge](https://img.shields.io/badge/currently_working-brightgreen.svg)
 ![Generic badge](https://img.shields.io/github/last-commit/robsarno/asusgl552vw-hackintosh)
-[![Generic badge](https://img.shields.io/reddit/subreddit-subscribers/hackintosh?style=social)](https://www.reddit.com/r/hackintosh/)
+<br>[![Generic badge](https://img.shields.io/reddit/subreddit-subscribers/hackintosh?style=social)](https://www.reddit.com/r/hackintosh/)
+<br>:it:
 <br>Feel free to contribute.
 
 
@@ -28,6 +30,7 @@ This **ISN'T a full guide, I only provide the EFI folder.**
 <br>I advise you to read that guide carefully to understand what you're going to do. 
 <br>The EFI folder provided in this repo contains kexts, SSDTs and config.plist optimized for this notebook.
 <br>If the specs don't match you could have bugs.
+<br>I've already set OpenCore Gui and Boot-chime. If not working please see Dortania’s OpenCore beauty treatment](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui).
 
 ### :computer: Installation
 If you want to be sure that my EFI folder contains every needed file:
