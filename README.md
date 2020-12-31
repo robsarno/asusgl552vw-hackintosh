@@ -3,7 +3,8 @@
 ![Generic badge](https://img.shields.io/maintenance/yes/2021)
 ![Generic badge](https://img.shields.io/badge/currently_working-brightgreen.svg)
 ![Generic badge](https://img.shields.io/github/last-commit/robsarno/asusgl552vw-hackintosh)
-Feel free to contribute.
+[![Generic badge](https://img.shields.io/reddit/subreddit-subscribers/hackintosh?style=social)](https://www.reddit.com/r/hackintosh/)
+<br>Feel free to contribute.
 
 
 ## Specs
@@ -22,10 +23,10 @@ Feel free to contribute.
 
 ## Getting started
 This **ISN'T a full guide, I only provide the EFI folder.** 
-For downloading the OS, making the USB installer you have to follow the [Dortania’s OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/).
-I advise you to read that guide carefully to understand what you're going to do. 
-The EFI folder provided in this repo contains kexts, SSDTs and config.plist optimized for this notebook.
-If the specs don't match you could have bugs.
+<br>For downloading the OS, making the USB installer you have to follow the [Dortania’s OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/).
+<br>I advise you to read that guide carefully to understand what you're going to do. 
+<br>The EFI folder provided in this repo contains kexts, SSDTs and config.plist optimized for this notebook.
+<br>If the specs don't match you could have bugs.
 
 ### Installation
 If you want to be sure that my EFI folder contains every needed file:
@@ -96,6 +97,3 @@ To understand more follow [Whatevergreen guide](https://github.com/acidanthera/W
 	* If you want to know more about your system
 * [Heliport](https://github.com/OpenIntelWireless/HeliPort)
 	* To be able to use wifi with this NIC (Intel 7265)
-
-
-[![Generic badge](https://img.shields.io/reddit/subreddit-subscribers/hackintosh?style=social)](https://www.reddit.com/r/hackintosh/)
