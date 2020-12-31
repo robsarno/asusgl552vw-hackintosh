@@ -22,14 +22,14 @@
 **Screen** |15.6 inch, 1920 x 1080, IPS, non-touch
 **Video** |	Integrated Intel HD 530 + Nvidia GTX 960M 2GB
 
-## Getting started
+## :arrow_forward: Getting started
 This **ISN'T a full guide, I only provide the EFI folder.** 
 <br>For downloading the OS, making the USB installer you have to follow the [Dortania’s OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/).
 <br>I advise you to read that guide carefully to understand what you're going to do. 
 <br>The EFI folder provided in this repo contains kexts, SSDTs and config.plist optimized for this notebook.
 <br>If the specs don't match you could have bugs.
 
-### Installation
+### :computer: Installation
 If you want to be sure that my EFI folder contains every needed file:
 1. Follow the [Gathering file](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) section on the OpenCore guide.
 2. I used pre-built SSDTs [Skylake and Kaby Lake](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#laptop-skylake-and-kaby-lake)
