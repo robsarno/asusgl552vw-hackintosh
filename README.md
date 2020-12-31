@@ -44,6 +44,9 @@ What you **need to do**:
 1. The only this you need (if not you cannot boot) to do is set the SMBIOS for generating serial, board serial and smUUID in config.plist: https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo
 2. At this point you have to copy the EFI folder on your USB EFI partition (previously created with OpenCore guide).
 3. Continue following the [guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#cleaning-up)
+4. Configure iServices (iMessage, iCloud...)
+	* We have set serial, SMBIOS etc, but is not enough. Before login with your iCloud account I advise you to read the guide. Your Apple ID could be blacklisted.
+	* [follow this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-en0) 
 
 ## :fire: Issues 
 ### :thumbsup: What works 
@@ -63,9 +66,7 @@ What you **need to do**:
 * Touchpad (need patching, currently working)
 * FN keys + backlight (need patching, currently working)
 * Nvidia GPU GTX M960 (not supported)
-* iServices (iMessage, iCloud...)
-	* We have set serial, SMBIOS etc, but is not enough. Before login with your iCloud account I advise you to read the guide. Your Apple ID could be blacklisted.
-	* [follow this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-en0) 
+
 
 ### :exclamation: HDMI issues
 If you use external display through HDMI you can:
