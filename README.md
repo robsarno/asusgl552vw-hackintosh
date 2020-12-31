@@ -1,5 +1,6 @@
 
 # Hackintoshing ASUS GL552VW - macOS BigSur 11
+:it:
 ![Generic badge](https://img.shields.io/maintenance/yes/2021)
 ![Generic badge](https://img.shields.io/badge/currently_working-brightgreen.svg)
 ![Generic badge](https://img.shields.io/github/last-commit/robsarno/asusgl552vw-hackintosh)
@@ -7,7 +8,7 @@
 <br>Feel free to contribute.
 
 
-## Specs
+## :mag: Specs
 .| Asus ROG GL552VW
 ------------ | -------------
 **Model**| G552VW
@@ -39,8 +40,8 @@ What you **need to do**:
 2. At this point you have to copy the EFI folder on your USB EFI partition (previously created with OpenCore guide).
 3. Continue following the [guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#cleaning-up)
 
-## Issues
-### What works
+## :fire: Issues 
+### :thumbsup: What works 
 * Intel HD 530 with graphic acceleration
 * Bluetooth
 * USB Ports
@@ -53,17 +54,17 @@ What you **need to do**:
 * Microphone
 * HDMI (with problems)
 
-### What doesn't
+### :thumbsdown: What doesn't
 * Touchpad (need patching, currently working)
 * FN keys + backlight (need patching, currently working)
 * Nvidia GPU GTX M960 (not supported)
 
-### HDMI issues
+### :exclamation: HDMI issues
 If you use external display through HDMI you can:
 1.  boot with no HDMI connected and connect after login
 2.  boot with HDMI connected, the built-in display'll not work (only backlight). To make it working you have to disconnect HDMI, close and open the lid (now the display will turn on), then connect HDMI.
 
-### To do's
+### :pushpin: To do's
 - [ ] Patch touchpad
 - [ ] Patch FN keys
 - [ ] Patch keyboard backlight
@@ -72,12 +73,12 @@ If you use external display through HDMI you can:
 
 ## Useful to know
 
-### Guides
+### :books: Guides
 * [Dortania's OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * [Whatevergreen guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 * [AppleALC supported codecs](https://github.com/acidanthera/applealc/wiki/supported-codecs)
 
-### Configs
+### :wrench: Configs
 These are requested during the OpenCore official guide to select kexts and configurations in [config.plist](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).
 .| model |. | config.plist
 ------------ | ------------- |------------- |  -------------
@@ -90,7 +91,7 @@ boot-args:
 
 To understand more follow [Whatevergreen guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-### Apps
+### :package: Apps
 * [MonitorControl](https://github.com/MonitorControl/MonitorControl/blob/master/README.md)
 	* If you can't control your external monitor brightness and audio
 * [Hackintool](https://github.com/headkaze/Hackintool)
