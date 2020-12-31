@@ -1,6 +1,6 @@
 
 # Hackintoshing ASUS GL552VW - macOS BigSur 11
-<img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48"/>
+
 
 ![Generic badge](https://img.shields.io/badge/OpenCore--DEBUG-0.6.4-brightgreen)
 -----
